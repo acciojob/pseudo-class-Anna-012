@@ -1,1 +1,18 @@
-/*  your css code here. If applicable */
+/* Container styling */
+#container {
+    margin: 20px;
+    font-size: 20px;
+    display: inline; /* Ensures it all stays inline */
+}
+
+/* Pseudo-element for content before the container */
+#container::before {
+    content: "Before Element ";
+    color: #f00; /* Red color */
+}
+
+/* Pseudo-element for content after the container */
+#container::after {
+    content: " After Element";
+    color: #f00; /* Red color */
+}
