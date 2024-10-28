@@ -7,12 +7,12 @@
 
 /* Pseudo-element for content before the container */
 #container::before {
-    content: "Before Element ";
+    content: "Before Element";
     color: #f00; /* Red color */
 }
 
 /* Pseudo-element for content after the container */
 #container::after {
-    content: " After Element";
+    content: "After Element";
     color: #f00; /* Red color */
 }
